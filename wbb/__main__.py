@@ -145,8 +145,7 @@ keyboard = InlineKeyboardMarkup(
                         url=f"t.me/{BOT_USERNAME}?start=help",
                     ),
                     InlineKeyboardButton(
-                        text="Repo 🛠",
-                        url="https://github.com/thehamkercat/WilliamButcherBot",
+                        text="Commands ❓", callback_data="bot_commands"
                     ),
                 ],
                 [
@@ -155,7 +154,7 @@ keyboard = InlineKeyboardMarkup(
                         callback_data="stats_callback",
                     ),
                     InlineKeyboardButton(
-                        text="Support 👨", url="t.me/WBBSupport"
+                        text="Support 👨", url="t.me/ELECTROBOT_Support"
                     ),
                 ],
             ]
