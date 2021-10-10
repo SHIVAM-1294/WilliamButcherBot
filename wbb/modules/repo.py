@@ -45,11 +45,7 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Github](https://github.com/thehamkercat/WilliamButcherBot) | [Group](t.me/PatheticProgrammers)
-```----------------
-| Contributors |
-----------------```
-@BONDOFBESTIZZ"""
+    text = f"""[CHANNEL](https://t.me/ELECTRO_UPDATES) | [Group](t.me/ELECTROBOT_SUPPORT)"""
     await app.send_message(
         message.chat.id, text=text, disable_web_page_preview=True
     )
